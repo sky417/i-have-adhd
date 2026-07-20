@@ -50,7 +50,7 @@ Look for `i-have-adhd  (enabled)`.
 codex plugin list
 ```
 
-Look for `i-have-adhd` under the `i-have-adhd` marketplace.
+Look for an `i-have-adhd` plugin entry.
 
 ### Copilot CLI
 
