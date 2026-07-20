@@ -35,7 +35,7 @@ In Codex: use `$i-have-adhd` when you want the output style applied explicitly. 
 ### Copilot CLI
 
 ```bash
-copilot plugin marketplace add ayghri/i-have-adhd
+copilot plugin marketplace add sky417/i-have-adhd
 copilot plugin install i-have-adhd@i-have-adhd
 ```
 
