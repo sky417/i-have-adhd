@@ -28,7 +28,7 @@ In Codex, type `$i-have-adhd` to request the output style explicitly.
 ### Copilot CLI
 
 ```bash
-copilot plugin marketplace add sky417/i-have-adhd
+copilot plugin marketplace add ayghri/i-have-adhd
 copilot plugin install i-have-adhd@i-have-adhd
 ```
 
