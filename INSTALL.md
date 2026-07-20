@@ -7,7 +7,7 @@ A Claude Code plugin. One skill inside.
 ### Claude Code
 
 ```bash
-git clone https://github.com/ayghri/i-have-adhd ./i-have-adhd
+git clone https://github.com/sky417/i-have-adhd ./i-have-adhd
 claude plugin marketplace add ./i-have-adhd
 claude plugin install i-have-adhd@i-have-adhd
 ```
@@ -19,11 +19,20 @@ To disable: `claude plugin disable i-have-adhd` (or `/plugin disable i-have-adhd
 ### Codex
 
 ```bash
-codex plugin marketplace add ayghri/i-have-adhd --ref main
+codex plugin marketplace add sky417/i-have-adhd --ref main
 codex plugin add i-have-adhd@i-have-adhd
 ```
 
 In Codex, type `$i-have-adhd` to request the output style explicitly.
+
+### Copilot CLI
+
+```bash
+copilot plugin marketplace add sky417/i-have-adhd
+copilot plugin install i-have-adhd@i-have-adhd
+```
+
+In Copilot CLI, type `/i-have-adhd` to request the output style explicitly.
 
 ## Verify
 
@@ -41,7 +50,15 @@ Look for `i-have-adhd  (enabled)`.
 codex plugin list
 ```
 
-Look for `i-have-adhd` in the configured `i-have-adhd` marketplace.
+Look for an `i-have-adhd` plugin entry.
+
+### Copilot CLI
+
+```bash
+copilot plugin list
+```
+
+Look for `i-have-adhd`.
 
 ## Update
 
@@ -61,6 +78,13 @@ codex plugin remove i-have-adhd
 codex plugin add i-have-adhd@i-have-adhd
 ```
 
+### Copilot CLI
+
+```bash
+copilot plugin marketplace update i-have-adhd
+copilot plugin update i-have-adhd
+```
+
 ## Uninstall
 
 ### Claude Code
@@ -75,6 +99,13 @@ claude plugin marketplace remove i-have-adhd
 ```bash
 codex plugin remove i-have-adhd
 codex plugin marketplace remove i-have-adhd
+```
+
+### Copilot CLI
+
+```bash
+copilot plugin uninstall i-have-adhd
+copilot plugin marketplace remove i-have-adhd
 ```
 
 ## Always-on (optional)

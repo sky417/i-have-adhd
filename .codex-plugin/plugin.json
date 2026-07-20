@@ -4,10 +4,10 @@
   "description": "ADHD-friendly output shaping for Codex: action first, numbered steps, no tangents, and visible progress.",
   "author": {
     "name": "Ayoub G.",
-    "url": "https://github.com/ayghri"
+    "url": "https://github.com/sky417"
   },
-  "homepage": "https://github.com/ayghri/i-have-adhd",
-  "repository": "https://github.com/ayghri/i-have-adhd",
+  "homepage": "https://github.com/sky417/i-have-adhd",
+  "repository": "https://github.com/sky417/i-have-adhd",
   "license": "MIT",
   "keywords": [
     "adhd",
@@ -26,7 +26,7 @@
     "capabilities": [
       "Instructions"
     ],
-    "websiteURL": "https://github.com/ayghri/i-have-adhd",
+    "websiteURL": "https://github.com/sky417/i-have-adhd",
     "defaultPrompt": [
       "Use i-have-adhd for this task.",
       "Make this answer action-first and easy to execute.",
