@@ -32,7 +32,7 @@ copilot plugin marketplace add sky417/i-have-adhd
 copilot plugin install i-have-adhd@i-have-adhd
 ```
 
-In Copilot CLI, type `$i-have-adhd` to request the output style explicitly.
+In Copilot CLI, type `/i-have-adhd` to request the output style explicitly.
 
 ## Verify
 
