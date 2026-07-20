@@ -1,0 +1,24 @@
+{
+  "name": "i-have-adhd",
+  "description": "ADHD-friendly output shaping for Copilot CLI: action first, numbered steps, no tangents, and visible progress.",
+  "owner": {
+    "name": "Ayoub G.",
+    "url": "https://github.com/ayghri"
+  },
+  "plugins": [
+    {
+      "name": "i-have-adhd",
+      "description": "Action-first, ADHD-friendly output shaping for Copilot CLI.",
+      "source": "./",
+      "category": "productivity",
+      "tags": [
+        "adhd",
+        "output-style",
+        "productivity",
+        "skills",
+        "copilot"
+      ],
+      "skills": "skills/"
+    }
+  ]
+}

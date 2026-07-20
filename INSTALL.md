@@ -25,6 +25,15 @@ codex plugin add i-have-adhd@i-have-adhd
 
 In Codex, type `$i-have-adhd` to request the output style explicitly.
 
+### Copilot CLI
+
+```bash
+copilot plugin marketplace add sky417/i-have-adhd
+copilot plugin install i-have-adhd@i-have-adhd
+```
+
+In Copilot CLI, type `$i-have-adhd` to request the output style explicitly.
+
 ## Verify
 
 ### Claude Code
@@ -42,6 +51,14 @@ codex plugin list
 ```
 
 Look for `i-have-adhd` in the configured `i-have-adhd` marketplace.
+
+### Copilot CLI
+
+```bash
+copilot plugin list
+```
+
+Look for `i-have-adhd`.
 
 ## Update
 
@@ -61,6 +78,13 @@ codex plugin remove i-have-adhd
 codex plugin add i-have-adhd@i-have-adhd
 ```
 
+### Copilot CLI
+
+```bash
+copilot plugin marketplace update i-have-adhd
+copilot plugin update i-have-adhd
+```
+
 ## Uninstall
 
 ### Claude Code
@@ -75,6 +99,13 @@ claude plugin marketplace remove i-have-adhd
 ```bash
 codex plugin remove i-have-adhd
 codex plugin marketplace remove i-have-adhd
+```
+
+### Copilot CLI
+
+```bash
+copilot plugin uninstall i-have-adhd
+copilot plugin marketplace remove i-have-adhd
 ```
 
 ## Always-on (optional)

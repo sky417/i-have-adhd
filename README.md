@@ -32,6 +32,15 @@ codex plugin add i-have-adhd@i-have-adhd
 
 In Codex: use `$i-have-adhd` when you want the output style applied explicitly. The skill can also be invoked implicitly when Codex sees a task that benefits from action-first, ADHD-friendly output.
 
+### Copilot CLI
+
+```bash
+copilot plugin marketplace add sky417/i-have-adhd
+copilot plugin install i-have-adhd@i-have-adhd
+```
+
+In Copilot CLI: use `$i-have-adhd` when you want the output style applied explicitly. The skill can also be invoked implicitly when Copilot sees a task that benefits from action-first, ADHD-friendly output.
+
 More in [INSTALL.md](./INSTALL.md).
 
 ## What it does
