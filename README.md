@@ -5,7 +5,7 @@
   <strong align="center">ADHD-friendly outputs. No ADHD diagnosis needed!</strong>
 </p>
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/ayghri/i-have-adhd?style=flat" alt="License"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/sky417/i-have-adhd?style=flat" alt="License"></a>
 </p>
 
 
@@ -14,7 +14,7 @@
 ### Claude Code
 
 ```bash
-git clone https://github.com/ayghri/i-have-adhd ./i-have-adhd
+git clone https://github.com/sky417/i-have-adhd ./i-have-adhd
 claude plugin marketplace add ./i-have-adhd
 claude plugin install i-have-adhd@i-have-adhd
 ```
@@ -26,7 +26,7 @@ To disable: `claude plugin disable i-have-adhd` or use `/plugin disable i-have-a
 ### Codex
 
 ```bash
-codex plugin marketplace add ayghri/i-have-adhd --ref main
+codex plugin marketplace add sky417/i-have-adhd --ref main
 codex plugin add i-have-adhd@i-have-adhd
 ```
 

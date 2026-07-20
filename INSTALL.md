@@ -7,7 +7,7 @@ A Claude Code plugin. One skill inside.
 ### Claude Code
 
 ```bash
-git clone https://github.com/ayghri/i-have-adhd ./i-have-adhd
+git clone https://github.com/sky417/i-have-adhd ./i-have-adhd
 claude plugin marketplace add ./i-have-adhd
 claude plugin install i-have-adhd@i-have-adhd
 ```
@@ -19,7 +19,7 @@ To disable: `claude plugin disable i-have-adhd` (or `/plugin disable i-have-adhd
 ### Codex
 
 ```bash
-codex plugin marketplace add ayghri/i-have-adhd --ref main
+codex plugin marketplace add sky417/i-have-adhd --ref main
 codex plugin add i-have-adhd@i-have-adhd
 ```
 
